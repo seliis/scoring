@@ -1,0 +1,63 @@
+* {
+    font-family: "Trebuchet MS";
+    cursor: default;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D9D9D9;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#appName {
+    font-size: 2rem;
+    padding: 48px;
+}
+
+.question-number {
+    text-align: left;
+}
+
+.answer-list, .answer-each {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer-list {
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer-each label {
+    cursor: pointer;
+    padding: 36px;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submitBtn {
+    background-color: lightslategrey;
+    margin: 12px 0 36px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 36px;
+    width: 25%;
+}
+
+#submitBtn:hover {
+    background-color: #E20A4A;
+}
